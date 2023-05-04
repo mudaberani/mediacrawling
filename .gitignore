@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Prisma migration history
+prisma/migrations/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Operating system and editor files
+.DS_Store
+*.swp
+*.swo
+*~
+._*
+Thumbs.db
+*.sublime*
+.vscode/
+
+# Electron-builder output
+release/
+*.dmg
+*.AppImage
+*.exe
+*.zip
+*.tar.gz
