@@ -6,11 +6,11 @@ function createWindow() {
     width: 800,
     height: 600,
     webPreferences: {
-      preload: path.join(__dirname, '..', 'renderer', 'index.tsx'),
+      preload: path.join(__dirname, '..', 'public', 'index.tsx'),
     },
   });
 
-  mainWindow.loadFile(path.join(__dirname, '..', 'renderer', 'index.html'));
+  mainWindow.loadFile(path.join(__dirname, '..', 'public', 'index.html'));
 }
 
 app.whenReady().then(() => {
